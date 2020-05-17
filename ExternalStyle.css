@@ -1,0 +1,67 @@
+/*
+ *外部样式表
+*/
+*{/*
+ *外边距：当两个元素没有重合时它们之间的距离。
+ *内边距：当两个元素有重合时它们之间的距离。
+*/
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(244,244,246);
+    padding-top: 44px;
+    padding-bottom: 50px;
+}
+/*定位:固定定位
+  1.确定元素的位置 x,y坐标
+  2.确定元素的宽高
+  3.加个螺丝钉
+  4.把被遮挡的元素，显示出来
+*/
+header{
+    background: rgb(40,133,202);
+    text-align: center;
+    color: white;
+    line-height: 44px;
+    font-size: 18px;
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+
+    z-index: 999;
+}
+.DS-Second-Section img{
+        width:100% ;
+        margin-bottom: -6px;
+}
+
+footer{
+        display: table;
+        width: 100%;
+        background: black;
+        height: 49px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        position: fixed;
+
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+}
+footer a span{
+    display: block;
+    font-size: 12px;
+}
+footer a img{
+    width: 18px;
+}
+
